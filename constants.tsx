@@ -1,21 +1,16 @@
 
 import { Product, Service, NavItem } from './types';
-import adidasBlueBoxingHelmetImg from './images/Adidas blue boxing helmet.jpeg';
-import blackAndWhiteVenumBoxingGlovesImg from './images/black and white venum boxing gloves.jpeg';
-import blackBoxingGlovesImg from './images/black boxing gloves.jpeg';
-import blueAdidasBoxingGlovesImg from './images/blue adidas boxing gloves.jpeg';
-import danubeWhiteBoxingGlovesImg from './images/danube white boxing gloves.jpeg';
-import neonAndBlackVenumBoxingGlovesImg from './images/neon and black venum boxing gloves.jpeg';
-import pinkAdidasBoxingGlovesImg from './images/pink adidas boxing gloves.jpeg';
-import pinkAndWhiteEverlastingBoxingGlovesImg from './images/pink and white everlasting boxing gloves.jpeg';
-import pinkBoxingGlovesImg from './images/pink boxing gloves.jpeg';
-import superBlackBoxingGlovesImg from './images/super black boxing gloves.jpeg';
-import waxfloPinkBoxingHelmetImg from './images/waxflo pink boxing helmet.jpeg';
-import whiteAndPinkVenomBoxingGlovesImg from './images/white and pink venom boxing gloves.jpeg';
+import dragonSpiritGiImg from './images/dragon spirit gi.jfif';
+import masteryTrainingBagImg from './images/Mastery Training Bag.jfif';
+import dojoCoreTeeImg from './images/Dojo Core Tee.jfif';
+import proFocusMittsImg from './images/Pro Focus Mitts.jfif';
+import bushidoRecoveryRollerImg from './images/Bushido Recovery Roller.jfif';
+import legacyZenHoodieImg from './images/Legacy Zen Hoodie.jfif';
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Home', href: '#home' },
-  { label: 'About', href: '#/about' },
+  { label: 'Institute', href: '#institute' },
+  { label: 'Master', href: '#master' },
   { label: 'Programs', href: '#programs' },
   { label: 'Shop', href: '#/shop' },
   { label: 'Contact', href: '#/contact' },
@@ -24,41 +19,26 @@ export const NAV_ITEMS: NavItem[] = [
 export const SERVICES: Service[] = [
   {
     id: '1',
-    title: 'NVZN Innovation Lab',
-    price: 0,
+    title: 'White Belt Foundation',
+    price: 99,
     period: 'month',
-    features: [
-      'Business accelerator for Black ecopreneurs',
-      'Supports creation of sustainable solutions for the built environment',
-      'Centers community-driven innovation and climate resilience',
-      'Connects founders to resources, training, and strategic partners'
-    ],
+    features: ['Basic Stances', 'Controlled Striking', '2 Classes Per Week', 'Free Uniform'],
     level: 'Beginner'
   },
   {
     id: '2',
-    title: 'SisTainable',
-    price: 0,
+    title: 'Bushido Masterclass',
+    price: 149,
     period: 'month',
-    features: [
-      'Campaign that cultivates Black women leaders in sustainability',
-      'Builds visibility, voice, and impact across the sustainability sector',
-      'Creates pathways into green careers and entrepreneurship',
-      'Centers joy, belonging, and structural systems change'
-    ],
+    features: ['Advanced Forms', 'Sparring Access', 'Unlimited Classes', 'Monthly Seminar'],
     level: 'Intermediate'
   },
   {
     id: '3',
-    title: 'Baby Greenz',
-    price: 0,
-    period: 'month',
-    features: [
-      'Youth-focused initiative introducing foundational sustainability concepts',
-      'Engages children and their caregivers together',
-      'Uses age-appropriate activities, books, and play-based learning',
-      'Builds early environmental consciousness in Black communities'
-    ],
+    title: 'Private Dragon Session',
+    price: 75,
+    period: 'session',
+    features: ['1-on-1 Personalized Coaching', 'Video Analysis', 'Custom Nutrition Plan', 'Focused Technique'],
     level: 'Master'
   }
 ];

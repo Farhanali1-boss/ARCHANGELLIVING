@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import About from './pages/About';
 import Checkout from './pages/Checkout';
 import Shop from './pages/Shop';
 import Classes from './pages/Classes';
@@ -71,8 +70,6 @@ const App: React.FC = () => {
           <Cart key={currentHash} />
         ) : route === 'shop' ? (
           <Shop key={currentHash} />
-        ) : route === 'about' ? (
-          <About key={currentHash} />
         ) : route === 'classes' ? (
           <Classes key={currentHash} />
         ) : route === 'contact' ? (

@@ -42,9 +42,7 @@ const Navbar: React.FC = () => {
               className="h-full w-full object-cover transform scale-150"
             />
           </div>
-          <span className="font-oswald text-2xl font-bold tracking-tighter uppercase">
-            Sage <span className="text-red-600">Futures</span>
-          </span>
+          <span className="font-oswald text-2xl font-bold tracking-tighter uppercase">ARCHANGEL<span className="text-red-600">LIVING</span></span>
         </a>
 
         {/* Desktop Menu */}
