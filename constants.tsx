@@ -15,8 +15,7 @@ import whiteAndPinkVenomBoxingGlovesImg from './images/white and pink venom boxi
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Home', href: '#home' },
-  { label: 'Institute', href: '#institute' },
-  { label: 'Master', href: '#master' },
+  { label: 'About', href: '#/about' },
   { label: 'Programs', href: '#programs' },
   { label: 'Shop', href: '#/shop' },
   { label: 'Contact', href: '#/contact' },
@@ -25,26 +24,41 @@ export const NAV_ITEMS: NavItem[] = [
 export const SERVICES: Service[] = [
   {
     id: '1',
-    title: 'White Belt Foundation',
-    price: 99,
+    title: 'NVZN Innovation Lab',
+    price: 0,
     period: 'month',
-    features: ['Basic Stances', 'Controlled Striking', '2 Classes Per Week', 'Free Uniform'],
+    features: [
+      'Business accelerator for Black ecopreneurs',
+      'Supports creation of sustainable solutions for the built environment',
+      'Centers community-driven innovation and climate resilience',
+      'Connects founders to resources, training, and strategic partners'
+    ],
     level: 'Beginner'
   },
   {
     id: '2',
-    title: 'Bushido Masterclass',
-    price: 149,
+    title: 'SisTainable',
+    price: 0,
     period: 'month',
-    features: ['Advanced Forms', 'Sparring Access', 'Unlimited Classes', 'Monthly Seminar'],
+    features: [
+      'Campaign that cultivates Black women leaders in sustainability',
+      'Builds visibility, voice, and impact across the sustainability sector',
+      'Creates pathways into green careers and entrepreneurship',
+      'Centers joy, belonging, and structural systems change'
+    ],
     level: 'Intermediate'
   },
   {
     id: '3',
-    title: 'Private Dragon Session',
-    price: 75,
-    period: 'session',
-    features: ['1-on-1 Personalized Coaching', 'Video Analysis', 'Custom Nutrition Plan', 'Focused Technique'],
+    title: 'Baby Greenz',
+    price: 0,
+    period: 'month',
+    features: [
+      'Youth-focused initiative introducing foundational sustainability concepts',
+      'Engages children and their caregivers together',
+      'Uses age-appropriate activities, books, and play-based learning',
+      'Builds early environmental consciousness in Black communities'
+    ],
     level: 'Master'
   }
 ];

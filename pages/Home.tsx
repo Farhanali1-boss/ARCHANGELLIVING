@@ -49,21 +49,26 @@ const Home: React.FC = () => {
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-red-600 font-oswald uppercase tracking-[0.3em] mb-4 animate-in fade-in slide-in-from-top-4 duration-700">Master Your Discipline</h2>
-          <h1 className="text-6xl md:text-9xl font-oswald font-bold uppercase tracking-tighter leading-none mb-8 animate-in fade-in zoom-in duration-1000">
-            <span className="text-red-600">ARCHANGEL</span>LIVING
+          <h2 className="text-red-600 font-oswald uppercase tracking-[0.3em] mb-4 animate-in fade-in slide-in-from-top-4 duration-700">
+            Centering Sustainable Lifestyles and Development in the Black Community
+          </h2>
+          <h1 className="text-5xl md:text-8xl font-oswald font-bold uppercase tracking-tighter leading-none mb-6 animate-in fade-in zoom-in duration-1000">
+            <span className="text-red-600">Sage</span> Futures
           </h1>
-          <p className="max-w-2xl mx-auto text-lg text-neutral-300 mb-10 leading-relaxed animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300">
-            A sanctuary for those who seek strength through stillness and power through discipline. Join the path of the modern warrior.
+          <p className="max-w-3xl mx-auto text-lg text-neutral-300 mb-4 leading-relaxed animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300">
+            Sage Futures is a 501(c)(3) community development corporation using sustainability to rebuild, innovate, and reskill for a balanced lifestyle in Black communities.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-500">
-            <a href="#programs" className="bg-red-600 hover:bg-red-700 text-white px-10 py-4 font-oswald uppercase text-lg tracking-widest transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-red-600/20">
-              Start Your Journey
+            <a href="#mission" className="bg-red-600 hover:bg-red-700 text-white px-10 py-4 font-oswald uppercase text-lg tracking-widest transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-red-600/20">
+              Our Mission
             </a>
-            <a href="#shop" className="border border-white/20 hover:border-red-600 text-white px-10 py-4 font-oswald uppercase text-lg tracking-widest transition-all backdrop-blur-sm">
-              Explore Gear
+            <a href="#programs" className="border border-white/20 hover:border-red-600 text-white px-10 py-4 font-oswald uppercase text-lg tracking-widest transition-all backdrop-blur-sm">
+              Explore Programs
             </a>
           </div>
+          <p className="mt-4 text-xs uppercase tracking-[0.25em] text-neutral-400">
+            Community Sustainability • Structural Systems Change • Black Futures
+          </p>
         </div>
 
         <div className="absolute bottom-10 left-10 opacity-10 pointer-events-none select-none">
@@ -71,8 +76,32 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* The Institute Section */}
-      <section id="institute" className="py-24 px-6 bg-neutral-950">
+      {/* Mission & Audience Section */}
+      <section id="mission" className="py-24 px-6 bg-neutral-950">
+        <div className="max-w-5xl mx-auto space-y-10">
+          <div>
+            <h2 className="text-red-600 font-oswald uppercase tracking-[0.2em] mb-4">Our Mission</h2>
+            <p className="text-neutral-300 text-lg leading-relaxed">
+              Our mission is to provide service, education, and skills to community members in underserved neighborhoods
+              through ethno-cultural and eco-friendly activities for the creation of sustainable closed-loop systems in
+              underserved communities and ultimately raise environmental consciousness and transform lifestyles.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-2xl md:text-3xl font-oswald font-bold uppercase tracking-tight mb-3">Who We Serve</h3>
+            <p className="text-neutral-300 text-lg leading-relaxed">
+              Traditionally underserved neighborhoods in Georgia are impoverished, lacking in opportunities and access.
+              As an Indigenous and African American woman who has lived in these areas, our founder&apos;s language and
+              presentation can reach those in these communities to receive the training they need that allies of these
+              communities would otherwise not be able to reach. Diversity and inclusion in the allocation of abundance
+              is our goal.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Institute Section (placeholder for future structural refinements) */}
+      <section id="institute" className="py-24 px-6 bg-black">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative group overflow-hidden">
             <div className="absolute -inset-4 bg-red-600/10 rounded-sm blur-2xl group-hover:bg-red-600/20 transition-all duration-700"></div>
